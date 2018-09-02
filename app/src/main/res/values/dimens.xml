@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tabHeight">48dp</dimen>
+    <dimen name="itemTextDoubleHeight">68dp</dimen>
+    <dimen name="itemTextSimpleHeight">48dp</dimen>
+    <dimen name="itemPadding">16dp</dimen>
+    <dimen name="gridListPadding">4dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="listTopBottomPadding">8dp</dimen>
+    <dimen name="itemTopPadding">8dp</dimen>
+    <dimen name="itemTextSize">16sp</dimen>
+    <dimen name="itemWidth">125dp</dimen>
+    <dimen name="icon_size">50dp</dimen>
+    <dimen name="bigText">30sp</dimen>
+</resources>

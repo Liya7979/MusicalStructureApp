@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+    <string name="albums">albums</string>
+    <string name="artists">artists</string>
+    <string name="albumCover">cover of the album</string>
+    <string name="artistCover">photo of the artist</string>
+    <string name="shuffle">shuffle</string>
+    <string name="previous">previous</string>
+    <string name="play">play</string>
+    <string name="next">next</string>
+    <string name="replay">replay</string>
+    <string name="gallery">Gallery</string>
+    <string name="start">00:00</string>
+    <string name="noSongFile">This song has no file to play</string>
+
+
+    <string name="payment">Payment Process</string>
+    <string name="steps">   The Android Pay API will be used to make payments. To implement it,
+                            I will first add dependencies to gradle and make changes in manifest
+                            to support this function. Then, by using OnClickListener on pay icon,
+                            the intent will be sent to check whether the user has this function
+                            working. If everything is fine, I may use either gateway token approach
+                            or network token approach. Suppose, I use the second one. In order to do
+                            that I will acquire a key-pair used to encrypt the response from Android
+                            Pay. To request the wallet information, I will make a Masked Wallet
+                            Request in a payment button in WalletFragment. The Masked Wallet
+                            Response is received if the user has confirmed to pay with Android Pay.
+                            Lastly, the status of payment can be updated and presented in a new
+                            fragment/activity with the instructions on what to do next.</string>
+    <string name="playing_activity">Playing Activity</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="activity_playing">This activity shows the list of songs in
+                                    the album/artist list that was chosen.
+                                    It is also possible to play these songs.</string>
+    <string name="activity_main">This activity shows 2 fragments that contain Album list
+                                 and Artist list. The GridView is used to show these lists</string>
+</resources>

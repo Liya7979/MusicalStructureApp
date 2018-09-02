@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.liya.musicalstructure.AlbumFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="@dimen/itemWidth"
+    android:horizontalSpacing="@dimen/gridListPadding"
+    android:numColumns="auto_fit"
+    android:padding="@dimen/gridListPadding"
+    android:verticalSpacing="@dimen/gridListPadding"
+    tools:context="com.example.liya.musicalstructureapp.AlbumFragment"
+    tools:listitem="@layout/fragment_album"
+    />
